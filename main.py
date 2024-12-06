@@ -1,3 +1,4 @@
+#Запрашивает у пользователя строку для поиска.
 import io
 with io.open("ipo-lr6-text.txt", "r", encoding="utf-8") as file:#с открытием файла читать его
     line = file.readlines()
